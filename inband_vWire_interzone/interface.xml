@@ -1,0 +1,51 @@
+<ethernet>
+ <entry name="ethernet1/1">
+   <layer3>
+     <ipv6>
+       <neighbor-discovery>
+         <router-advertisement>
+           <enable>no</enable>
+         </router-advertisement>
+       </neighbor-discovery>
+     </ipv6>
+     <ndp-proxy>
+       <enabled>no</enabled>
+     </ndp-proxy>
+     <lldp>
+       <enable>no</enable>
+     </lldp>
+     <ip>
+       <entry name="{{ mgmt_ip }}"/>
+     </ip>
+     <interface-management-profile>in-band mgmt.</interface-management-profile>
+   </layer3>
+ </entry>
+ <entry name="ethernet1/2">
+   <virtual-wire>
+     <lldp>
+       <enable>no</enable>
+     </lldp>
+   </virtual-wire>
+ </entry>
+ <entry name="ethernet1/3">
+   <virtual-wire>
+     <lldp>
+       <enable>no</enable>
+     </lldp>
+   </virtual-wire>
+ </entry>
+ <entry name="ethernet1/4">
+   <virtual-wire>
+     <lldp>
+       <enable>no</enable>
+     </lldp>
+   </virtual-wire>
+ </entry>
+ <entry name="ethernet1/5">
+   <virtual-wire>
+     <lldp>
+       <enable>no</enable>
+     </lldp>
+   </virtual-wire>
+ </entry>
+</ethernet>

@@ -1,0 +1,27 @@
+<entry name="{{ zone_name }}">
+  <network>
+    <layer3>
+      <member>ethernet1/1</member>
+    </layer3>
+  </network>
+  <enable-user-identification>yes</enable-user-identification>
+</entry>
+<entry name="untrust">
+  <network>
+    <virtual-wire>
+      <member>ethernet1/2</member>
+      <member>ethernet1/3</member>
+    </virtual-wire>
+    <zone-protection-profile>untrust</zone-protection-profile>
+    <enable-packet-buffer-protection>yes</enable-packet-buffer-protection>
+  </network>
+</entry>
+<entry name="trust">
+  <network>
+    <virtual-wire>
+      <member>ethernet1/4</member>
+      <member>ethernet1/5</member>
+    </virtual-wire>
+    <zone-protection-profile>trust</zone-protection-profile>
+  </network>
+</entry>

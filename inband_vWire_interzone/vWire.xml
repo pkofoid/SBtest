@@ -1,0 +1,10 @@
+<virtual-wire>
+  <entry name="untrust_vWire">
+    <interface1>ethernet1/2</interface1>
+    <interface2>ethernet1/3</interface2>
+  </entry>
+  <entry name="trust_vWire">
+    <interface1>ethernet1/4</interface1>
+    <interface2>ethernet1/5</interface2>
+  </entry>
+</virtual-wire>
