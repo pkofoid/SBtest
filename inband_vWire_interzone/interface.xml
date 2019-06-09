@@ -1,5 +1,5 @@
 <ethernet>
- <entry name="{{ interface_number }}">
+ <entry name="ethernet1/1">
    <layer3>
      <ipv6>
        <neighbor-discovery>
