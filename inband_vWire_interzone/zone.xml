@@ -1,4 +1,4 @@
-<entry name="{{ zone_name }}">
+<entry name="management">
   <network>
     <layer3>
       <member>ethernet1/1</member>
