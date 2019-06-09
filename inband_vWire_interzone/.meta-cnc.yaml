@@ -31,10 +31,10 @@ variables:
 #    description: management ip address
 #    default: 192.168.1.225
 #    type_hint: ip_address
-  - name: zone_name
-    description: management zone name
-    default: in-band mgmt
-    type_hint: text
+#  - name: zone_name
+#    description: management zone name
+#    default: in-band mgmt
+#    type_hint: text
 
 
 # ---------------------------------------------------------------------
