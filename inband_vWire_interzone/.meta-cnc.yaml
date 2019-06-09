@@ -27,6 +27,10 @@ labels:
 # type_hint defines the form field used by panhandler
 # type_hints can be text, ip_address, or dropdown
 variables:
+  - name: interface_number
+    description: management interface
+    default: ethernet1/1
+    type_hint: ip_address
   - name: mgmt_ip
     description: management ip address
     default: 192.168.1.225
