@@ -1,10 +1,23 @@
-## SBtest: SkilletBuilder test 
+## Pre-provisioned in-band mgmt. + 2x vWire zones
 
-Incepted with PAN-OS v9.0 (not tested with prior versions)
-* Pre-provisioned based skillets
-* Panorama and NGFW stand-alone application
+Built in PAN-OS v9.0 (not tested with prior versions)
+What this Skillet contains: Interfaces, Zones, vWire
+* NGFW stand-alone
 
 
+### interface
+
+variables:
+* name
+* ip_address
+
+### zone
+
+variables:
+* name
+
+### virtual-wire
+* Establishes untrust & trust interface pairings
 
 
 ### Support Policy

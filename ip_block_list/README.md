@@ -1,9 +1,26 @@
-## SBtest: SkilletBuilder test 
+## EDL IP block list
 
-Incepted with PAN-OS v9.0 (not tested with prior versions)
-* Pre-provisioned based skillets
-* Panorama and NGFW stand-alone application
+Built in PAN-OS v9.0 (not tested with prior versions)
+What's in this Skillet: EDLs, Tags, Rules
+NGFW stand-alone
 
+
+### edl
+
+* name, description, url
+* uses 5 min update interval
+
+### tag
+
+variables:
+* name
+* color (decoded)
+* description  
+
+### rules
+
+* in and out
+* reference edl and tag
 
 
 

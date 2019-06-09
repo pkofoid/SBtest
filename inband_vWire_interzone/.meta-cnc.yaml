@@ -33,7 +33,7 @@ variables:
     type_hint: ip_address
   - name: zone_name
     description: management zone name
-    default: mgmt
+    default: in-band mgmt
     type_hint: text
 
 
