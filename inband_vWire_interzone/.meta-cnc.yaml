@@ -48,15 +48,13 @@ snippets:
   - name: interface
     xpath: /config/devices/entry[@name='localhost.localdomain']/network/interface
     file: interface.xml
-  - name: zone
-    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/zone
-    file: zone.xml
   - name: vWire
     xpath: /config/devices/entry[@name='localhost.localdomain']/network
     file: vWire.xml
-  - name: tag
-    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/tag
-    file: tag.xml
+  - name: zone
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/zone
+    file: zone.xml
+
 
 # ---------------------------------------------------------------------
 # end of snippets section
