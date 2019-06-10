@@ -1,10 +1,10 @@
 # skillet preamble information used by panhandler
 # ---------------------------------------------------------------------
 # unique snippet name
-name: inband_vWire_setup
+name: vWire_setup
 # label used for menu selection
-label: NGFW in-band mgmt + interzone vWire configuration
-description: provisions NGFW in-band mgmt interface on eth1/1, untrust/trust vWire zones on eth1/2, 1/3 and eth1/4, 1/5
+label: NGFW interzone vWire configuration
+description: provisions NGFW untrust/trust logging policy + vWire zones on eth1/2, 1/3 and eth1/4, 1/5
 
 # type of device configuration
 # common types are panorama, panos, and template
@@ -16,7 +16,7 @@ extends:
 # grouping of like snippets for dynamic menu creation in panhandler
 labels:
   collection:
-    - sample
+    - NGFW setup
 
 # ---------------------------------------------------------------------
 # end of preamble section

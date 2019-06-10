@@ -7,14 +7,12 @@ What this Skillet contains: Interfaces, Zones, vWire
 
 ### interface
 
-variables:
-* name
-* ip_address
+* statically defined: 1/2. 1/3, 1/4, 1/5
 
 ### zone
 
-variables:
-* name
+* untrust_vWire
+* trust_vWire
 
 ### virtual-wire
 * Establishes untrust & trust interface pairings

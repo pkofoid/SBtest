@@ -16,7 +16,7 @@ extends:
 # grouping of like snippets for dynamic menu creation in panhandler
 labels:
   collection:
-    - sample
+    - Example Skillets
 
 # ---------------------------------------------------------------------
 # end of preamble section
