@@ -4,7 +4,6 @@
       <member>ethernet1/2</member>
       <member>ethernet1/3</member>
     </virtual-wire>
-    <zone-protection-profile>untrust</zone-protection-profile>
     <enable-packet-buffer-protection>yes</enable-packet-buffer-protection>
   </network>
 </entry>
@@ -14,6 +13,5 @@
       <member>ethernet1/4</member>
       <member>ethernet1/5</member>
     </virtual-wire>
-    <zone-protection-profile>trust</zone-protection-profile>
   </network>
 </entry>
