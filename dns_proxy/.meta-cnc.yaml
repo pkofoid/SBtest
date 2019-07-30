@@ -28,17 +28,17 @@ labels:
 # type_hints can be text, ip_address, or dropdown
 variables:
   - name: dns_proxy
-      description: proxy name
-      default: dns_proxy name
-      type_hint: text
+    description: proxy name
+    default: dns_proxy name
+    type_hint: text
   - name: rule_1
-      description: rule name
-      default: rule_1 name
-      type_hint: text
+    description: rule name
+    default: rule_1 name
+    type_hint: text
   - name: someurl.com
-      description: FQDN name
-      default: someurl.com name
-      type_hint: text
+    description: FQDN name
+    default: someurl.com name
+    type_hint: text
 
 # ---------------------------------------------------------------------
 # end of variables section
