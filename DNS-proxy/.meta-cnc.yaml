@@ -1,10 +1,10 @@
 # skillet preamble information used by panhandler
 # ---------------------------------------------------------------------
 # unique snippet name
-name: DNS-Proxy_setup
+name: DNS_proxy_setup
 # label used for menu selection
-label: DNS-Proxy configuration skillet
-description: provisions NGFW DNS-Proxy
+label: DNS proxy configuration skillet
+description: provisions NGFW DNS proxy
 
 # type of device configuration
 # common types are panorama, panos, and template
