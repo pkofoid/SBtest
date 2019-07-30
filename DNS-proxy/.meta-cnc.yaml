@@ -1,7 +1,7 @@
 # skillet preamble information used by panhandler
 # ---------------------------------------------------------------------
 # unique snippet name
-name: DNS_proxy_setup
+name: dns_proxy_setup
 # label used for menu selection
 label: DNS proxy configuration skillet
 description: provisions NGFW DNS proxy
