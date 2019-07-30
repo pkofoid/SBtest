@@ -15,7 +15,7 @@
       <domain-servers>
         <entry name="{{ rule_1 }}">
           <domain-name>
-            <member>{{ someurl.com }}</member>
+            <member>{{ some_url }}</member>
           </domain-name>
           <primary>1.1.1.1</primary>
           <secondary>8.8.8.8</secondary>

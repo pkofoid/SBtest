@@ -35,9 +35,9 @@ variables:
     description: rule name
     default: rule_1 name
     type_hint: text
-  - name: someurl.com
+  - name: some_url
     description: FQDN name
-    default: someurl.com name
+    default: some_url
     type_hint: text
 
 # ---------------------------------------------------------------------
