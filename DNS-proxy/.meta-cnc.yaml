@@ -31,15 +31,15 @@ variables:
     description: dns proxy name
     default: dns_proxy
     type_hint: text
-  - name: enable_ttl
-      description: enable
-      default: no
-      type_hint: dropdown
-      dd_list:
-        - key: yes
-          value: yes
-        - key: no
-          value: no
+#  - name: enable_ttl
+#      description: enable
+#      default: no
+#      type_hint: dropdown
+#      dd_list:
+#        - key: yes
+#          value: yes
+#        - key: no
+#          value: no
   - name: primary_dns
       description: primary DNS server
       default: 1.1.1.1
