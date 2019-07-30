@@ -32,7 +32,7 @@ variables:
     default: dns_proxy
     type_hint: text
   - name: enable_ttl
-      description: Enable TTL?
+      description: Enable TTL
       default: no
       type_hint: dropdown
       dd_list:
@@ -49,7 +49,7 @@ variables:
       default: 8.8.8.8
       type_hint: ip_address
   - name: tcp_queries
-      description: Enable TCP queries?
+      description: Enable TCP queries
       default: no
       type_hint: dropdown
       dd_list:
@@ -103,7 +103,7 @@ variables:
     default: 8.8.8.8
     type_hint: ip_address
   - name: cache_domain
-      description: Enable caching of domains?
+      description: Enable caching of domains
       default: yes
       type_hint: dropdown
       dd_list:
