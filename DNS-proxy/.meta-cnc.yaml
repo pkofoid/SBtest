@@ -28,7 +28,7 @@ labels:
 # type_hints can be text, ip_address, or dropdown
 variables:
   - name: dns_proxy_name
-    description: DNS Proxy name:
+    description: DNS proxy name
     default: dns_proxy
     type_hint: text
   - name: enable_ttl
