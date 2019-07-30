@@ -58,7 +58,7 @@ variables:
         - key: no
           value: no
   - name: proxy_interface
-      description: add an interface to function as a DNS proxy
+      description: interface
       default: ethernet1/1
       type_hint: dropdown
       dd_list:
@@ -71,27 +71,27 @@ variables:
         - key: loopback
           value: loopback
   - name: rule_name
-    description: proxy rule name
+    description: rule name
     default: rule_1
     type_hint: text
   - name: domain_a
-    description: proxied domain name
+    description: proxied domain
     default: a@local
     type_hint: text
   - name: domain_b
-    description: proxied domain name
+    description: proxied domain
     default: b@local
     type_hint: text
   - name: domain_c
-    description: proxied domain name
+    description: proxied domain
     default: c@local
     type_hint: text
   - name: domain_d
-    description: proxied domain name
+    description: proxied domain
     default: d@local
     type_hint: text
   - name: domain_e
-    description: proxied domain name
+    description: proxied domain
     default: e@local
     type_hint: text
   - name: primary
