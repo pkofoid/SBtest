@@ -48,7 +48,7 @@ variables:
 # snippets used for api configuration including xpath and element as file name
 # files will load in the order listed
 snippets:
-  - name: dns-proxy
+  - name: dns_proxy
     xpath: /config/devices/entry[@name='localhost.localdomain']/network/dns-proxy
 
 
