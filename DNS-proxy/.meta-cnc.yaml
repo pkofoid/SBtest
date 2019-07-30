@@ -32,7 +32,7 @@ variables:
     default: dns_proxy
     type_hint: text
   - name: enable_ttl
-      description: enable ttl
+      description: enable
       default: no
       type_hint: dropdown
       dd_list:
