@@ -27,103 +27,18 @@ labels:
 # type_hint defines the form field used by panhandler
 # type_hints can be text, ip_address, or dropdown
 variables:
-  - name: dns_proxy_name
-    description: dns proxy name
-    default: dns_proxy
-    type_hint: text
-#  - name: enable_ttl
-#      description: enable
-#      default: no
-#      type_hint: dropdown
-#      dd_list:
-#        - key: yes
-#          value: yes
-#        - key: no
-#          value: no
-  - name: primary_dns
-      description: primary dns server
-      default: 1.1.1.1
-      type_hint: ip_address
-  - name: secondary_dns
-      description: secondary dns server
-      default: 8.8.8.8
-      type_hint: ip_address
-  - name: tcp_queries
-      description: enable tcp queries
-      default: no
-      type_hint: dropdown
-      dd_list:
-        - key: yes
-          value: yes
-        - key: no
-          value: no
-  - name: proxy_interface
-      description: interface
-      default: ethernet1/1
-      type_hint: dropdown
-      dd_list:
-        - key: tag_member
-          value: ethernet1/1
-        - key: tunnel
-          value: tunnel
-        - key: vlan
-          value: vlan
-        - key: loopback
-          value: loopback
-  - name: rule_name
-    description: rule name
-    default: rule_1
-    type_hint: text
-  - name: domain_a
-    description: proxied domain
-    default: a@local
-    type_hint: text
-  - name: domain_b
-    description: proxied domain
-    default: b@local
-    type_hint: text
-  - name: domain_c
-    description: proxied domain
-    default: c@local
-    type_hint: text
-  - name: domain_d
-    description: proxied domain
-    default: d@local
-    type_hint: text
-  - name: domain_e
-    description: proxied domain
-    default: e@local
-    type_hint: text
-  - name: primary
-    description: primary DNS
-    default: 1.1.1.1
-    type_hint: ip_address
-  - name: secondary
-    description: secondary DNS
-    default: 8.8.8.8
-    type_hint: ip_address
-  - name: cache_domain
-      description: domain caching
-      default: yes
-      type_hint: dropdown
-      dd_list:
-        - key: yes
-          value: yes
-        - key: no
-          value: no
-   - name: static_nameserver
-      description: name
-      default: foobar.local
+  - name: dns_proxy
+      description: proxy name
+      default: dns_proxy name
       type_hint: text
-   - name: nameserver_ip
-      description: ip address
-      default: 1.1.1.1
-      type_hint: ip_address
-   - name: domain_name
-      description: fqdn
-      default: foobar.local
+  - name: rule_1
+      description: rule name
+      default: rule_1 name
       type_hint: text
-
+  - name: someurl.com
+      description: FQDN name
+      default: someurl.com name
+      type_hint: text
 
 # ---------------------------------------------------------------------
 # end of variables section

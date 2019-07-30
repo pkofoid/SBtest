@@ -1,38 +1,28 @@
-<entry name="{{ dns_proxy_name }}">
-  <cache>
-    <max-ttl>
-      <enabled>{{ no }}</enabled>
-    </max-ttl>
-    <enabled>{{ yes }}</enabled>
-  </cache>
-  <default>
-    <primary>{{ 1.1.1.1 }}</primary>
-    <secondary>{{ 8.8.8.8 }}</secondary>
-  </default>
-  <tcp-queries>
-    <enabled>{{ no }}</enabled>
-  </tcp-queries>
-  <interface>
-    <member>{{ ethernet1/1 }}</member>
-  </interface>
-  <domain-servers>
-    <entry name="{{ rule_name }}">
-      <domain-name>
-        <member>{{ app.local }}</member>
-        <member>{{ dev.local }}</member>
-        <member>{{ web.local }}</member>
-      </domain-name>
-      <primary>{{ 1.1.1.1 }}</primary>
-      <secondary>{{ 8.8.8.8 }}</secondary>
-      <cacheable>{{ yes }}</cacheable>
+<entry name="{{ dns_proxy }}">
+      <cache>
+        <max-ttl>
+          <enabled>yes</enabled>
+        </max-ttl>
+        <enabled>yes</enabled>
+      </cache>
+      <default>
+        <primary>1.1.1.1</primary>
+        <secondary>8.8.8.8</secondary>
+      </default>
+      <tcp-queries>
+        <enabled>yes</enabled>
+      </tcp-queries>
+      <domain-servers>
+        <entry name="{{ rule_1 }}">
+          <domain-name>
+            <member>{{ someurl.com }}</member>
+          </domain-name>
+          <primary>1.1.1.1</primary>
+          <secondary>8.8.8.8</secondary>
+          <cacheable>yes</cacheable>
+        </entry>
+      </domain-servers>
+      <interface>
+        <member>ethernet1/1</member>
+      </interface>
     </entry>
-  </domain-servers>
-  <static-entries>
-    <entry name="{{ static_nameserver }}">
-      <address>
-        <member>{{ 75.75.75.75 }}</member>
-      </address>
-      <domain>{{ comcast.net }}</domain>
-    </entry>
-  </static-entries>
-</entry>
