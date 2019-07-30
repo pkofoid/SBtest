@@ -28,11 +28,11 @@ labels:
 # type_hints can be text, ip_address, or dropdown
 variables:
   - name: dns_proxy_name
-    description: DNS proxy name
+    description: dns proxy name
     default: dns_proxy
     type_hint: text
   - name: enable_ttl
-      description: Enable ttl
+      description: enable ttl
       default: no
       type_hint: dropdown
       dd_list:
@@ -41,15 +41,15 @@ variables:
         - key: no
           value: no
   - name: primary_dns
-      description: Enter the hostname or IP address of the primary DNS server:
+      description: primary DNS server
       default: 1.1.1.1
       type_hint: ip_address
   - name: secondary_dns
-      description: Enter the hostname or IP address of the secondary DNS server:
+      description: secondary DNS server
       default: 8.8.8.8
       type_hint: ip_address
   - name: tcp_queries
-      description: Enable TCP queries
+      description: enable tcp queries
       default: no
       type_hint: dropdown
       dd_list:
@@ -58,7 +58,7 @@ variables:
         - key: no
           value: no
   - name: proxy_interface
-      description: Add an interface to function as a DNS proxy
+      description: add an interface to function as a DNS proxy
       default: ethernet1/1
       type_hint: dropdown
       dd_list:
@@ -71,39 +71,39 @@ variables:
         - key: loopback
           value: loopback
   - name: rule_name
-    description: DNS Proxy rule name:
+    description: proxy rule name
     default: rule_1
     type_hint: text
   - name: domain_a
-    description: Proxied domain name:
+    description: proxied domain name
     default: a@local
     type_hint: text
   - name: domain_b
-    description: Proxied domain name:
+    description: proxied domain name
     default: b@local
     type_hint: text
   - name: domain_c
-    description: Proxied domain name:
+    description: proxied domain name
     default: c@local
     type_hint: text
   - name: domain_d
-    description: Proxied domain name:
+    description: proxied domain name
     default: d@local
     type_hint: text
   - name: domain_e
-    description: Proxied domain name:
+    description: proxied domain name
     default: e@local
     type_hint: text
   - name: primary
-    description: Primary DNS
+    description: primary DNS
     default: 1.1.1.1
     type_hint: ip_address
   - name: secondary
-    description: Secondary DNS:
+    description: secondary DNS
     default: 8.8.8.8
     type_hint: ip_address
   - name: cache_domain
-      description: Enable caching of domains
+      description: domain caching
       default: yes
       type_hint: dropdown
       dd_list:
@@ -112,15 +112,15 @@ variables:
         - key: no
           value: no
    - name: static_nameserver
-      description: Enter a name for the static entry:
+      description: name
       default: foobar.local
       type_hint: text
    - name: nameserver_ip
-      description: Enter IP address:
+      description: ip address
       default: 1.1.1.1
       type_hint: ip_address
    - name: domain_name
-      description: Enter FQDN:
+      description: fqdn
       default: foobar.local
       type_hint: text
 
