@@ -37,6 +37,9 @@ variables:
 # snippets used for api configuration including xpath and element as file name
 # files will load in the order listed
 snippets:
+  - name: ab_zones
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/zone
+    file: ab_zones.xml
   - name: address_object
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/address
     file: address_object.xml
@@ -46,12 +49,6 @@ snippets:
   - name: security_policy
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/security/rules
     file: security_policy.xml
-  - name: tunnel
-    xpath: /config/devices/entry[@name='localhost.localdomain']/network/interface/tunnel
-    file: tunnel.xml
-  - name: zones
-    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/zone
-    file: zones.xml
 
 # ---------------------------------------------------------------------
 # end of snippets section

@@ -2,11 +2,11 @@
 
 Built in PAN-OS v9.0 (not tested with prior versions)
 What this Skillet contains: Interfaces, Zones, vWire
-* NGFW stand-alone
+* NGFW stand-alone: IPv4-Initiated Communication
 
 
 ### address object
-* Tunnel loopback interface to emulate a loopback interface with a netmask other than 128
+*
 
 ### zone
 * untrust

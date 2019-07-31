@@ -1,7 +1,9 @@
-<entry name="loopback">
-  <ip-netmask>64:FF9B::/96</ip-netmask>
-  <description>Tunnel interface to emulate a loopback interface with a netmask other than 128</description>
+<entry name="nat64_ip4server">
+  <ip-netmask>192.168.1.254/32</ip-netmask>
 </entry>
-<entry name="nat64-IPv4 server">
+<entry name="nat64_ip6source">
   <ip-netmask>64:FF9B::/96</ip-netmask>
+</entry>
+<entry name="nat64_server_2">
+  <ip-netmask>2001:DB8::2/128</ip-netmask>
 </entry>

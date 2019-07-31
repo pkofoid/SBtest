@@ -1,9 +1,8 @@
 <entry name="trust">
-  <network>
-    <layer3>
-      <member>tunnel.2</member>
-    </layer3>
-  </network>
+      <network>
+        <layer3/>
+      </network>
+    </entry>
 </entry>
 <entry name="untrust">
   <network>

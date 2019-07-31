@@ -1,9 +1,9 @@
 <entry name="nat64">
   <to>
-    <member>untrust</member>
+    <member>trust</member>
   </to>
   <from>
-    <member>trust</member>
+    <member>untrust</member>
   </from>
   <source>
     <member>any</member>
