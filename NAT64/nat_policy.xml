@@ -1,4 +1,4 @@
- <entry name="nat64_ipv6_init" uuid="8653fb1a-6717-40c7-a4dd-977bb715e287">
+ <entry name="nat64_ipv6_init">
     <source-translation>
       <dynamic-ip-and-port>
         <interface-address>
