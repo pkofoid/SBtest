@@ -1,0 +1,12 @@
+<entry name="trust">
+  <network>
+    <layer3>
+      <member>tunnel.2</member>
+    </layer3>
+  </network>
+</entry>
+<entry name="untrust">
+  <network>
+    <layer3/>
+  </network>
+</entry>

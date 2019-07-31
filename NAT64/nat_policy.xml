@@ -1,0 +1,23 @@
+ <entry name="nat64_ipv6_init" uuid="8653fb1a-6717-40c7-a4dd-977bb715e287">
+    <source-translation>
+      <dynamic-ip-and-port>
+        <interface-address>
+          <interface>ethernet1/1</interface>
+        </interface-address>
+      </dynamic-ip-and-port>
+    </source-translation>
+    <to>
+      <member>untrust</member>
+    </to>
+    <from>
+      <member>trust</member>
+    </from>
+    <source>
+      <member>any</member>
+    </source>
+    <destination>
+      <member>nat64-IPv4 server</member>
+    </destination>
+    <service>any</service>
+    <nat-type>nat64</nat-type>
+  </entry>
