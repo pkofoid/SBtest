@@ -4,7 +4,7 @@
 name: nat64
 # label used for menu selection
 label: NAT64
-description: adds v6 loopback interface tunnel, nat64 address object and security nat64 rule
+description: adds nat64 address object and security nat64 rule
 
 # type of device configuration
 # common types are panorama, panos, and template

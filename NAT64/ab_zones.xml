@@ -1,8 +1,7 @@
 <entry name="trust">
-      <network>
-        <layer3/>
-      </network>
-    </entry>
+  <network>
+    <layer3/>
+  </network>
 </entry>
 <entry name="untrust">
   <network>
